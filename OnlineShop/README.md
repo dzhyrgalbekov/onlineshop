@@ -5,23 +5,23 @@
 
 ### Прототип интернет-магазина
 
-Страницы: домашняя, магазин, авторизация, заказы.
+Pages: home, shop, authorization, orders.
 
-В системе четыре роли: Гость, Пользователь, Администратор, Продавец.
+There are four roles in the system: Guest, User, Administrator, Seller.
 
-- Гость (авторизация не требуется)\
-Может смотреть товары в магазине и информацию о них, добавлять товары в корзину.
+- Guest (authorization is not required)\
+Can view products in the store and information about them, add products to the cart.
 
-- Пользователь (требуется авторизация)\
-Может делать то же, что и гость. А также делать заказ. Смотреть список своих заказов и отменять их.\
-Логин: Renat, пароль: far 
+- User (login required)\
+Can do the same as the guest. Also place an order. View a list of your orders and cancel them.\
+Login: Renat, password: far 
 
-- Администратор (требуется авторизация)\
-Может делать то же, что и пользователь. А также удалять товары из магазина.
+- Administrator (login required)\
+Can do the same as the user. And also remove items from the store.
 
-- Продавец (требуется авторизация)\
-Может делать то же, что и пользователь. А также смотреть заказы всех пользователей и отменять их.\
-Логин: Dina, пароль: cola 
+- Seller (login required)\
+Can do the same as the user. And also see the orders of all users and cancel them.\
+Login: Dina, password: cola
 
-Стек технологий: Spring (Boot, MVC, Thymeleaf, Security), Hibernate, Git, база данных PostgreSQL,\
-сервер веб-приложений Heroku.  
+Technology stack: Spring (Boot, MVC, Thymeleaf, Security), Hibernate, Git, PostgreSQL database,\
+Heroku web application server.
